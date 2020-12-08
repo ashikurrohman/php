@@ -1,8 +1,10 @@
 
 <?php 
 
-define("hello","Hello,man");
+define("hello","Hello,man",true); // default is false for case sensetive
 
 echo hello." How are you?"; // No need to echo constant value using $ sign
+
+echo Hello;
 
 ?>
