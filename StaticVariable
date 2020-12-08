@@ -1,0 +1,15 @@
+<?php 
+
+
+function thisisFunction(){
+ static $number = 1;
+ $number++;
+ echo $number;
+}
+
+thisisFunction();
+thisisFunction();
+thisisFunction();
+
+
+?>
