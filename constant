@@ -1,0 +1,8 @@
+
+<?php 
+
+define("hello","Hello,man");
+
+echo hello." How are you?"; // No need to echo constant value using $ sign
+
+?>
