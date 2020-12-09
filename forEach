@@ -1,0 +1,12 @@
+<?php 
+
+// Array Traverse 
+
+$thisForEach = array("name"=>"Ashik","age"=>22,"subject"=>"Economics");
+
+forEach($thisForEach as $key => $element){
+	echo $key . " : " . $element;
+	echo "<br>";
+};
+
+?>
