@@ -1,0 +1,17 @@
+<?php 
+
+$number = 4;
+switch ($number){
+	case 3:
+	echo "This is 3";
+	break;
+	case 4:
+	echo "This is 4";
+	break;
+	case 5:
+	echo "This is 5";
+	break;
+	
+}
+
+?>
